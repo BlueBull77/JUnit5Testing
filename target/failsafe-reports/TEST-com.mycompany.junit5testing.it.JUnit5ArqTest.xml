@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.mycompany.junit5testing.it.JUnit5ArqTest" time="1.42" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="env.ONEDRIVE" value="C:\Users\Marek\OneDrive"/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="8"/>
+    <property name="env.USERPROFILE" value="C:\Users\Marek"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="arquillian.launch" value="arq-weld"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="env.QT_SCALE_FACTOR_ROUNDING_POLICY" value="RoundPreferFloor"/>
+    <property name="env.PROGRAMW6432" value="C:\Program Files"/>
+    <property name="env.FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Marek\AppData\Local\Temp\surefire804325461710189745\surefirebooter10344664182928690551.jar C:\Users\Marek\AppData\Local\Temp\surefire804325461710189745 2021-04-08T17-02-09_782-jvmRun1 surefire5222554624740582737tmp surefire_05275217269246026838tmp"/>
+    <property name="env.SYSTEMROOT" value="C:\WINDOWS"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="env.WILDFLY_HOME" value="C:\Program Files\Wildfly\wildfly-22.0.1.Final"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="env.CLASSWORLDS_JAR" value="&quot;C:\Program Files\NetBeans-12.2\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar&quot;"/>
+    <property name="env.PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="env.LOCALAPPDATA" value="C:\Users\Marek\AppData\Local"/>
+    <property name="env.USERDOMAIN_ROAMINGPROFILE" value="DESKTOP-SM69MFO"/>
+    <property name="env.PROCESSOR_REVISION" value="3c03"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="user.name" value="Marek"/>
+    <property name="env.PATH" value="C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Marek\Documents\TUHH\Informatik\Programme\runtime\win64;D:\Marek\Documents\TUHH\Informatik\Programme\bin;C:\Users\Marek\AppData\Local\Microsoft\WindowsApps;"/>
+    <property name="env.NB_EXEC_MAVEN_PROCESS_UUID" value="0f5c419e-2006-4680-a68e-72f7efe7dd88"/>
+    <property name="env.EXEC_DIR" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="env.DRIVERDATA" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="env.COMPUTERNAME" value="DESKTOP-SM69MFO"/>
+    <property name="env.HOMEPATH" value="\Users\Marek"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="localRepository" value="C:\Users\Marek\.m2\repository"/>
+    <property name="env.APPDATA" value="C:\Users\Marek\AppData\Roaming"/>
+    <property name="env.JVMCONFIG" value="\.mvn\jvm.config"/>
+    <property name="java.io.tmpdir" value="C:\Users\Marek\AppData\Local\Temp\"/>
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+    <property name="env.HOMEDRIVE" value="C:"/>
+    <property name="env.PSMODULEPATH" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="env.TMP" value="C:\Users\Marek\AppData\Local\Temp"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Razer Chroma SDK\bin;C:\Program Files\Razer Chroma SDK\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Marek\Documents\TUHH\Informatik\Programme\runtime\win64;D:\Marek\Documents\TUHH\Informatik\Programme\bin;C:\Users\Marek\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="env.LOGONSERVER" value="\\DESKTOP-SM69MFO"/>
+    <property name="env.ERROR_CODE" value="0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="env.WINDIR" value="C:\WINDOWS"/>
+    <property name="java.class.path" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing\target\test-classes;C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing\target\classes;C:\Users\Marek\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\Marek\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Marek\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Marek\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Marek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Marek\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\junit5\arquillian-junit5-container\1.7.0.Alpha9\arquillian-junit5-container-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.7.0.Alpha9\arquillian-test-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.7.0.Alpha9\arquillian-core-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.7.0.Alpha9\arquillian-test-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.7.0.Alpha9\arquillian-core-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.7.0.Alpha9\arquillian-container-test-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.7.0.Alpha9\arquillian-container-test-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.7.0.Alpha9\arquillian-core-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.7.0.Alpha9\arquillian-test-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.7.0.Alpha9\arquillian-container-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.7.0.Alpha9\arquillian-config-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.7.0.Alpha9\arquillian-config-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.7.0.Alpha9\arquillian-config-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.7.0.Alpha9\arquillian-container-test-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\junit5\arquillian-junit5-core\1.7.0.Alpha9\arquillian-junit5-core-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet-jakarta\1.7.0.Alpha9\arquillian-protocol-servlet-jakarta-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.7.0.Alpha9\arquillian-container-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\Marek\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-weld-embedded\3.0.0.Alpha1\arquillian-weld-embedded-3.0.0.Alpha1.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi-jakarta\1.7.0.Alpha9\arquillian-testenricher-cdi-jakarta-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\weld\weld-core-impl\4.0.1.Final\weld-core-impl-4.0.1.Final.jar;C:\Users\Marek\.m2\repository\org\jboss\weld\weld-api\4.0.SP1\weld-api-4.0.SP1.jar;C:\Users\Marek\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\3.0.0\jakarta.enterprise.cdi-api-3.0.0.jar;C:\Users\Marek\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\Marek\.m2\repository\org\jboss\weld\weld-spi\4.0.SP1\weld-spi-4.0.SP1.jar;C:\Users\Marek\.m2\repository\org\jboss\classfilewriter\jboss-classfilewriter\1.2.4.Final\jboss-classfilewriter-1.2.4.Final.jar;C:\Users\Marek\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.0.0\jakarta.annotation-api-2.0.0.jar;C:\Users\Marek\.m2\repository\jakarta\el\jakarta.el-api\4.0.0\jakarta.el-api-4.0.0.jar;C:\Users\Marek\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\2.0.0\jakarta.interceptor-api-2.0.0.jar;C:\Users\Marek\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="user.variant" value=""/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="env.NETBEANS_MAVEN_COMMAND_LINE" value="&quot;C:\Program Files\NetBeans-12.2\netbeans\java\maven\bin\mvn.cmd&quot; -Dmaven.ext.class.path=&quot;C:\Program Files\NetBeans-12.2\netbeans\java\maven-nblib\netbeans-eventspy.jar&quot; -Dfile.encoding=UTF-8 -Parq-weld clean install"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="env.USERDOMAIN" value="DESKTOP-SM69MFO"/>
+    <property name="env.=::" value="::\"/>
+    <property name="surefire.test.class.path" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing\target\test-classes;C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing\target\classes;C:\Users\Marek\.m2\repository\javax\javaee-api\8.0\javaee-api-8.0.jar;C:\Users\Marek\.m2\repository\com\sun\mail\javax.mail\1.6.0\javax.mail-1.6.0.jar;C:\Users\Marek\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter\5.7.0\junit-jupiter-5.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;C:\Users\Marek\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Marek\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Marek\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.0\junit-jupiter-params-5.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Marek\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\junit5\arquillian-junit5-container\1.7.0.Alpha9\arquillian-junit5-container-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\test\arquillian-test-api\1.7.0.Alpha9\arquillian-test-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\core\arquillian-core-api\1.7.0.Alpha9\arquillian-core-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\test\arquillian-test-spi\1.7.0.Alpha9\arquillian-test-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\core\arquillian-core-spi\1.7.0.Alpha9\arquillian-core-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-api\1.7.0.Alpha9\arquillian-container-test-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-api\1.2.6\shrinkwrap-api-1.2.6.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-api-base\2.0.0\shrinkwrap-descriptors-api-base-2.0.0.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-spi\1.7.0.Alpha9\arquillian-container-test-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\core\arquillian-core-impl-base\1.7.0.Alpha9\arquillian-core-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\test\arquillian-test-impl-base\1.7.0.Alpha9\arquillian-test-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-impl-base\1.7.0.Alpha9\arquillian-container-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\config\arquillian-config-api\1.7.0.Alpha9\arquillian-config-api-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\config\arquillian-config-impl-base\1.7.0.Alpha9\arquillian-config-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\config\arquillian-config-spi\1.7.0.Alpha9\arquillian-config-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-test-impl-base\1.7.0.Alpha9\arquillian-container-test-impl-base-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\junit5\arquillian-junit5-core\1.7.0.Alpha9\arquillian-junit5-core-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-impl-base\1.2.6\shrinkwrap-impl-base-1.2.6.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\shrinkwrap-spi\1.2.6\shrinkwrap-spi-1.2.6.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\protocol\arquillian-protocol-servlet-jakarta\1.7.0.Alpha9\arquillian-protocol-servlet-jakarta-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-container-spi\1.7.0.Alpha9\arquillian-container-spi-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\shrinkwrap\descriptors\shrinkwrap-descriptors-spi\2.0.0\shrinkwrap-descriptors-spi-2.0.0.jar;C:\Users\Marek\.m2\repository\org\assertj\assertj-core\3.19.0\assertj-core-3.19.0.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\container\arquillian-weld-embedded\3.0.0.Alpha1\arquillian-weld-embedded-3.0.0.Alpha1.jar;C:\Users\Marek\.m2\repository\org\jboss\arquillian\testenricher\arquillian-testenricher-cdi-jakarta\1.7.0.Alpha9\arquillian-testenricher-cdi-jakarta-1.7.0.Alpha9.jar;C:\Users\Marek\.m2\repository\org\jboss\weld\weld-core-impl\4.0.1.Final\weld-core-impl-4.0.1.Final.jar;C:\Users\Marek\.m2\repository\org\jboss\weld\weld-api\4.0.SP1\weld-api-4.0.SP1.jar;C:\Users\Marek\.m2\repository\jakarta\enterprise\jakarta.enterprise.cdi-api\3.0.0\jakarta.enterprise.cdi-api-3.0.0.jar;C:\Users\Marek\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.0\jakarta.inject-api-2.0.0.jar;C:\Users\Marek\.m2\repository\org\jboss\weld\weld-spi\4.0.SP1\weld-spi-4.0.SP1.jar;C:\Users\Marek\.m2\repository\org\jboss\classfilewriter\jboss-classfilewriter\1.2.4.Final\jboss-classfilewriter-1.2.4.Final.jar;C:\Users\Marek\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.0.0\jakarta.annotation-api-2.0.0.jar;C:\Users\Marek\.m2\repository\jakarta\el\jakarta.el-api\4.0.0\jakarta.el-api-4.0.0.jar;C:\Users\Marek\.m2\repository\jakarta\interceptor\jakarta.interceptor-api\2.0.0\jakarta.interceptor-api-2.0.0.jar;C:\Users\Marek\.m2\repository\org\jboss\logging\jboss-logging\3.4.1.Final\jboss-logging-3.4.1.Final.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.COMSPEC" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="user.home" value="C:\Users\Marek"/>
+    <property name="user.language" value="de"/>
+    <property name="env.JAVACMD" value="C:\Program Files\Java\jdk-15.0.1\bin\java.exe"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="env.SESSIONNAME" value="Console"/>
+    <property name="env.MAVEN_HOME" value="C:\Program Files\NetBeans-12.2\netbeans\java\maven\bin\.."/>
+    <property name="surefire.real.class.path" value="C:\Users\Marek\AppData\Local\Temp\surefire804325461710189745\surefirebooter10344664182928690551.jar"/>
+    <property name="env.WDIR" value="C:\"/>
+    <property name="path.separator" value=";"/>
+    <property name="env.=C:" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="env.CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.2\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="env.M2_HOME" value="C:\Program Files\NetBeans-12.2\netbeans\java\maven"/>
+    <property name="env.MAVEN_CMD_LINE_ARGS" value="-Dmaven.ext.class.path=&quot;C:\Program Files\NetBeans-12.2\netbeans\java\maven-nblib\netbeans-eventspy.jar&quot; -Dfile.encoding=UTF-8 -Parq-weld clean install"/>
+    <property name="user.dir" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="env.USERNAME" value="Marek"/>
+    <property name="env.ONEDRIVECONSUMER" value="C:\Users\Marek\OneDrive"/>
+    <property name="env.MAVEN_PROJECTBASEDIR" value="C:\Users\Marek\Documents\NetBeansProjects\JUnit5Testing"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="env.FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="env.TEMP" value="C:\Users\Marek\AppData\Local\Temp"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="JUnit5ArtTest" classname="com.mycompany.junit5testing.it.JUnit5ArqTest" time="0.097">
+    <system-err><![CDATA[Apr. 08, 2021 5:02:11 PM org.jboss.weld.bootstrap.WeldStartup <clinit>
+INFO: WELD-000900: 4.0.1 (Final)
+Apr. 08, 2021 5:02:11 PM org.jboss.weld.bootstrap.WeldStartup startContainer
+INFO: WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+]]></system-err>
+  </testcase>
+</testsuite>
