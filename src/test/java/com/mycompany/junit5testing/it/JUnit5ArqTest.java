@@ -33,6 +33,16 @@ public class JUnit5ArqTest {
     public void JUnit5ArtTest() {
         assertThat(bean.square(2)).as("ist 4").isEqualTo(4);
         assertEquals(9, bean.square(3));
+        
+        
+    }
+    
+    
+    @Test
+    @DisplayName("Exception Handling")
+    public void testException() {
+        
+        Integer.parseInt("blub");
     }
 
     @Deployment
