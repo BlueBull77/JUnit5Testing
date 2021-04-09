@@ -7,6 +7,8 @@ package com.mycompany.junit5testing.it;
 
 import com.mycompany.junit5testing.StatelessBean;
 import jakarta.inject.Inject;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import static org.assertj.core.api.Java6Assertions.assertThat;
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit5.ArquillianExtension;
@@ -14,6 +16,7 @@ import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
 import org.jboss.shrinkwrap.api.spec.WebArchive;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -27,7 +30,9 @@ public class JUnit5ArqTest {
 
     @Inject
     private StatelessBean bean;
-
+    
+    Logger L = Logger.getLogger(JUnit5ArqTest.class.getName());
+            
     @Test
     @DisplayName("testing JUnit5ArtTest")
     public void JUnit5ArtTest() {
@@ -42,9 +47,21 @@ public class JUnit5ArqTest {
     @DisplayName("Exception Handling")
     public void testException() {
         
+        Exception exception = assertThrows(NumberFormatException.class, () -> Integer.parseInt("blub"));
+        L.log(Level.WARNING, exception.getMessage());
+        exception = assertThrows(ArithmeticException.class, () ->
+            bean.divide(1, 0));
         Integer.parseInt("blub");
     }
-
+    
+    @Test
+    void exceptionTesting() {
+        Exception exception = assertThrows(ArithmeticException.class, () ->
+            bean.divide(1, 0));
+        assertEquals("/ by zero", exception.getMessage());
+    }
+    
+    
     @Deployment
     public static WebArchive createDeployment() {
         return ShrinkWrap.create(WebArchive.class)
