@@ -51,7 +51,12 @@ public class JUnit5ArqTest {
         L.log(Level.WARNING, exception.getMessage());
         exception = assertThrows(ArithmeticException.class, () ->
             bean.divide(1, 0));
-        Integer.parseInt("blub");
+        
+        
+        exception = assertThrows(ArithmeticException.class, () ->
+            bean.divide(5, 0));
+        //Tests if same Exception is handeld twice
+//        Integer.parseInt("blub");
     }
     
     @Test
@@ -59,6 +64,10 @@ public class JUnit5ArqTest {
         Exception exception = assertThrows(ArithmeticException.class, () ->
             bean.divide(1, 0));
         assertEquals("/ by zero", exception.getMessage());
+        
+        
+        exception = assertThrows(ArithmeticException.class, () ->
+            bean.divide(2, 0));
     }
     
     
